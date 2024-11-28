@@ -13,3 +13,5 @@ jobs:
       uses: maxfie1d/actions-cloc@v1
       with:
         artifact: true
+
+permissions: read-all        
