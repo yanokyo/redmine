@@ -1,4 +1,4 @@
-name: Cloc by GitHub Actions
+name: コードメトリクス計測(LOC)
 
 on:
   workflow_dispatch:
