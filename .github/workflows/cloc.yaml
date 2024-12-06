@@ -9,6 +9,9 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
+    # 外部ライブラリなどを計測対象外とすべく削除
+    - name: Remove Exclude Directory 
+      run: rm -rf ./db ./test
     - name: actions-cloc
       uses: maxfie1d/actions-cloc@v1
       with:
